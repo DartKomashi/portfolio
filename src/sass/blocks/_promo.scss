@@ -1,0 +1,12 @@
+.promo {
+    min-height: 100vh;
+    position: relative;
+    background: url('../../img/main_bg.png') no-repeat 50%/cover;
+    padding-top: 200px;
+    &__master {
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        height: 100%;
+    }
+}
