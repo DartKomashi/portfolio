@@ -12,9 +12,16 @@
     &__title {
         margin-top: 15px;
     }
+    &__subtitle {
+        position: relative;
+        padding-left: 10px;
+        z-index: 2;
+        @include before_circle;
+    }
     &__btns {
-        margin-top: 25px;
+        margin-top: 23px;
         display: flex;
+        align-items: center;
         width: 250px;
         justify-content: space-between;
     }
