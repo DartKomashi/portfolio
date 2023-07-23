@@ -42,7 +42,7 @@
                 &:after {
                     content: '';
                     width: 1px;
-                    height: 110%;
+                    height: calc(100% + 16px);
                     position: absolute;
                     top: -16px;
                     left: 0;
