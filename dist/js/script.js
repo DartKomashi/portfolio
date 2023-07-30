@@ -9,3 +9,10 @@ hamburger.addEventListener('click', () => {
 closeElem.addEventListener('click', () => {
     menu.classList.remove('active');
 });
+
+const calculator = document.querySelectorAll('.abilitys__ratings-calculator'),
+    lines = document.querySelectorAll('.abilitys__ratings-line span');
+
+calculator.forEach( (item, i) => {
+    lines[i].style.width = item.innerHTML;
+});
